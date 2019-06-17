@@ -1,0 +1,37 @@
+Grecia48:Python cur01alu48$ git clone https://github.com/malaikaandrade/Python.git
+Cloning into 'Python'...
+remote: Enumerating objects: 34, done.
+remote: Counting objects: 100% (34/34), done.
+remote: Compressing objects: 100% (28/28), done.
+remote: Total 34 (delta 2), reused 33 (delta 1), pack-reused 0
+Unpacking objects: 100% (34/34), done.
+Grecia48:Python cur01alu48$ ls -a
+.		.DS_Store	Clase 6		Python
+..		.git		Clase4
+Grecia48:Python cur01alu48$ git config --global user.email "malaikaandrade@gmail.com"
+Grecia48:Python cur01alu48$ git config --global user.name  "malaikaandrade"
+Grecia48:Python cur01alu48$ git add .
+Grecia48:Python cur01alu48$ git commit -m "Avance"
+[master 576e5a2] Avance
+ 8 files changed, 476 insertions(+)
+ create mode 100644 Clase 6/MiDeclaracionDeExcepciones.py
+ create mode 100644 Clase 6/Salida guardada de la terminal
+ create mode 100644 Clase 6/calculadora3.py
+ create mode 100644 Clase 6/errores.py
+ create mode 100644 Clase 6/erroresejercicio2.py
+ create mode 100644 Clase 6/erroresejercicio3.py
+ create mode 100644 Clase 6/erroresejercicio4.py
+ create mode 100644 Clase 6/raise.py
+Grecia48:Python cur01alu48$ git push origin master
+Username for 'https://github.com': malaikaandrade
+Password for 'https://malaikaandrade@github.com': 
+Enumerating objects: 12, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (11/11), 3.30 KiB | 3.30 MiB/s, done.
+Total 11 (delta 0), reused 0 (delta 0)
+To https://github.com/malaikaandrade/Python.git
+   dd56b35..576e5a2  master -> master
+Grecia48:Python cur01alu48$ 
+

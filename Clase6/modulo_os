@@ -1,0 +1,22 @@
+>>> os.chdir(".."). #regresara otras carpetas
+>>> os.getcwd().  #tu ubicacion de tu carpeta
+'/Users/cur01alu48/Desktop/Python'
+>>> os.chdir("..")
+>>> os.getcwd()
+'/Users/cur01alu48/Desktop'
+>>> os.mkdir("Carpeta_prueba") #crear una carpeta
+>>> 
+
+
+>>> os.mkdir("Carpeta_prueba")  crea carpeta (make direction)
+>>> os.rmdir("Carpeta_prueba") remueve carpeta(remove direction)
+>>> os.mkdir("Carpeta_prueba/prueba2") crea carpeta dentro de carpeta
+>>> os.rmdir("Carpeta_prueba/prueba2")
+
+>>> dir(os.path)
+['__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '_get_sep', '_joinrealpath', '_varprog', '_varprogb', 'abspath', 'altsep', 'basename', 'commonpath', 'commonprefix', 'curdir', 'defpath', 'devnull', 'dirname', 'exists', 'expanduser', 'expandvars', 'extsep', 'genericpath', 'getatime', 'getctime', 'getmtime', 'getsize', 'isabs', 'isdir', 'isfile', 'islink', 'ismount', 'join', 'lexists', 'normcase', 'normpath', 'os', 'pardir', 'pathsep', 'realpath', 'relpath', 'samefile', 'sameopenfile', 'samestat', 'sep', 'split', 'splitdrive', 'splitext', 'stat', 'supports_unicode_filenames', 'sys']
+>>> os.path.isdir("carpeta_prueba")
+True
+>>> os.path.isdir("e1.py")
+False
+>>> 

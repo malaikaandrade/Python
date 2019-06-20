@@ -33,5 +33,7 @@ if __name__ == "__main__":
 	destinatario = input("Escriba el destinatario: ")
 	asunto = input("Escriba el asunto: ")
 	cuerpo = input("Escriba su mensaje: ")
-
-	enviar_correo(usuario, password, destinatario, asunto, cuerpo)
+	
+#el for es para hacer spam
+	for x in range(1,10):
+		enviar_correo(usuario, password, destinatario, asunto, cuerpo)

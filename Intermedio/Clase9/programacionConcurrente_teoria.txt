@@ -1,0 +1,13 @@
+PROGRAMACION CONCURRENTE
+
+Thread: ruts de ejecion independiente
+proceso: programa en ejecucion, puede incluir multiples Threads
+
+tarea: se refiere al concepto abstracto de una actividad que necesita ser ejecutada. cada hilo puede ejecutar una tarea determinada sin la ayuda de otros hilos, es decir la realiza independientemente.
+
+programacion paralela: 
+paralelismo: ejecucion de una tarea al mismo tiempo(HW)
+ejecucion de tareas al mismo tiempo (HW---Hardware es lo que requiere).
+
+concurrencia: multiples flujos de control que pueden o no ejecutarse paralelamente; osea que es la capacidad que tiene una tarea (o mas tareas) de poder ejecutarse de manera independiente de otra tarea.
+parece que las ejecuta al mismo tiempo, pero en realidad las realiza a diferentes tiempos, primero hace una tarea, la para y empieza a ejecutar la segunda tarea. 

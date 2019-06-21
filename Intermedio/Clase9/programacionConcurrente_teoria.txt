@@ -1,9 +1,22 @@
 PROGRAMACION CONCURRENTE
 
-Thread: ruts de ejecion independiente
+Thread: rutas de ejecion independiente
 proceso: programa en ejecucion, puede incluir multiples Threads
 
-tarea: se refiere al concepto abstracto de una actividad que necesita ser ejecutada. cada hilo puede ejecutar una tarea determinada sin la ayuda de otros hilos, es decir la realiza independientemente.
+tarea: se refiere al concepto abstracto de una actividad que necesita ser ejecutada. cada hilo puede ejecutar una tarea determinada sin la ayuda de otros hilos, es decir la realiza independientemente
+
+de la clase padre exception se heredan todas las excepciones
+
+el metodo accept()-- devuelve un socket y una direccion
+
+el metodo compile nos permite guardar patron como un objeto
+
+el metodo re.findall regresa una lista con todas las coincidencias
+
+
+que metodo de apertura no permite sobreescribir un archivo-- a de append
+
+#el finally se ejecuta siempre haya o no haya un error
 
 programacion paralela: 
 paralelismo: ejecucion de una tarea al mismo tiempo(HW)

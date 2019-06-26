@@ -1,6 +1,6 @@
 import telebot 
 
-token = '838885317:AAE9Zg3Wsb3Bl5kmg8x7INbIpsDstq0XRg8'
+token = #poner token
 
 miBot = telebot.TeleBot(token)
 
@@ -11,7 +11,7 @@ def send_welcome(message):
 
 
 
-chat_id = 808142045
+chat_id = #poner chat id
 miBot.send_message(chat_id, "Hola :)")
 
 file = open("perrito.png", "rb")

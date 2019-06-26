@@ -1,0 +1,51 @@
+#API
+
+"""
+
+https ---- hipertext tranfer Protocol (vamos a estar intercambiando con un formato de texto, con html o json)
+
+backend--- esqueleto de una aplcación
+frontend-- lo que ves de la aplicacion 
+
+servidor-- le esta regresando al usuario la informacion , administra las interacciones de los registros de las bases de datos
+
+servidor_backend -- conectado a base de datos --API
+
+MVC
+estes es el nombre de esta estructura:
+-MODELO-base de datos
+-VISTA-frontend
+-CONTROLADOR- servidor_backend
+
+API--- Application Programming Interface
+
+
+SDK-- Software Development Kit
+conjunto de herramientas que nos hacen mas facil consultar la API (la base de datos)
+
+token: contraseñas, es una llave que va a estar asociada a una aplicacion que este usando la API
+
+
+request-- peticion -- Response(json)
+
+
+
+
+# pip3 install requests -- user (para poner utilizar el rquest, lo instalas en la terminal )
+
+CRUD		HTTP
+Create		POST
+update		PATCH/PUT
+read 		GET
+delete		DELETE 
+
+GET-- lleva expuesto en la URL los parametros que le estamos pasando y el metodo put no
+
+
+API R est
+
+en python hay una biblioteca que se llama request y nos hace mucho mas sencillo todo
+
+
+https:// --- http + TLS -- Transfer Layer Security (nos agrega una capa mas de transferencia y por lo tanto una capa mas de seguridad)
+"""

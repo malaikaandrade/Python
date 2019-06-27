@@ -1,0 +1,20 @@
+ENTORNO VIRTUAL 
+
+
+
+Estonia40:~ cur01alu40$ python3 -m venv proyecto
+
+#nos regresa donde esta ubicado python 
+Estonia40:~ cur01alu40$ which python3
+/usr/local/bin/python3
+Estonia40:~ cur01alu40$ 
+
+Estonia40:~ cur01alu40$ cd proyecto/
+Estonia40:proyecto cur01alu40$ source bin/activate
+(proyecto) Estonia40:proyecto cur01alu40$ which python3
+/Users/cur01alu40/proyecto/bin/python3
+(proyecto) Estonia40:proyecto cur01alu40$ pip3 install tweepy
+Collecting tweepy
+
+
+el entorno virtual nos sirve para guardar todo el esa carpeta y poder compartirlo con un buen de modulos y python, lo puedes mandar a alguien y el puede ejecutarlo sin tener que volver a instalar todos los modulos y asi poder correr tu programa. 

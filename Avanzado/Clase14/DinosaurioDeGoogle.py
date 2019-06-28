@@ -81,7 +81,7 @@ while juegoCorriendo:
 			estadoSaltando = False
 			contadorSalto = 10
 		contadorPasos += 1
-	if contadorPasos >4:
+	if contadorPasos >=4:
 		contadorPasos = 0
 
 	rectanguloDino = pygame.Rect(x,y, anchoDinosaurio, altoDinosaurio)
@@ -98,7 +98,7 @@ while juegoCorriendo:
 
 
 	ventana.blit(fondo,(0,0)) #Dibujamos el fondo de la ventana
-	ventana.blit(spritesDino[contadorPasos//4],(x,y)) #la trupla (x,y) hace referencia a las coordenadas. #//division entre 4. el //le quita todos los decimales a la division
+	ventana.blit(spritesDino[contadorPasos],(x,y)) #la trupla (x,y) hace referencia a las coordenadas. #//division entre 4. el //le quita todos los decimales a la division
 	ventana.blit(cactus, (xCactus,yCactus))
 	#contadorPasos+=1
 
